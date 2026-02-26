@@ -75,7 +75,7 @@ Any object passed into this function will work as long as it has a .title attrib
 This demonstrates Python’s dynamic typing philosophy:
 "If it walks like a duck and quacks like a duck, it is a duck."
 
-🧬 Method Resolution Order (MRO) Analysis
+### 🧬 Method Resolution Order (MRO) Analysis
 
 If a DigitalBook class inherits from both Book and a hypothetical Software class:
 
@@ -106,26 +106,12 @@ For example, if both Book and Software define an open() method, Python will reso
 
 This guarantees a consistent and predictable method lookup order and avoids ambiguity in multiple inheritance scenarios.
 
-▶️ How to Run the Application
+### ▶️ How to Run the Application
 
 From the project root directory, run:
 
 python -m library_system
-📚 Technologies Used
+
+### 📚 Technologies Used
 
 Python 3.x
-
-
----
-
-This covers:
-- Structure ✔️  
-- Decorators ✔️  
-- Closures ✔️  
-- Duck Typing ✔️  
-- MRO Analysis ✔️  
-- Run Instructions ✔️  
-
-…and keeps it clean enough for GitHub review.
-
-Next we should actually **implement the `borrow_item(item)` Duck Typing function**
